@@ -1,0 +1,30 @@
+body{
+    background-image: url('../img/Wallpaper_web.png');
+    text-align: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+}
+
+/* Quito puntos de las listas */ 
+ul {
+    list-style: none;
+}
+
+.imagenProductos {
+    width: 250px;
+    height: 250px;
+}
