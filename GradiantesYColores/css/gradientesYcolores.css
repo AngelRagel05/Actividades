@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 body {
     text-align: center;
 }
@@ -12,6 +16,7 @@ h1 {
 }
 
 .caja {
+    margin: 5px;
     width: 200px;
     height: 200px;
     align-content: center;
@@ -50,4 +55,8 @@ h1 {
 
 .caja8 {
     background-image: radial-gradient(at 0% 100%, rgb(241, 85, 70), rgb(253, 234, 60), rgb(43, 155, 233));
+}
+
+.caja9 {
+    background-image: conic-gradient(red, yellow, green, purple, white);
 }
