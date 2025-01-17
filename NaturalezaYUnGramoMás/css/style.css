@@ -16,6 +16,13 @@ header {
     margin: 10px 0;
 }
 
+header h1, h3 {
+    font-weight: bold;
+    background: linear-gradient(90deg, rgb(61, 218, 5), rgb(241, 229, 12), rgb(229, 24, 13));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 main {
     color: white;
     width: 60%;
@@ -36,6 +43,7 @@ ul {
 .imagenProductos {
     width: 250px;
     height: 250px;
+    filter: drop-shadow(50px 5px 50px #000000);
 }
 
 img {
